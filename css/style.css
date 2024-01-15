@@ -3,7 +3,7 @@
 } */
 
 body{
-    font-family: 'montserrat', san sans-serif;
+    font-family: 'montserrat', sans-serif;
 }
 
 /* HEADER */
@@ -47,6 +47,7 @@ header img{
 /* TABELLA */
 table{
     text-align: left;
+    border-collapse: collapse;
 }
 
 td{
@@ -74,11 +75,20 @@ footer p{
     color: grey;
 }
 
-.img_footer{
-    position: relative;
+#foto_monitor{
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    background-image: url(/img/monitor.jpg);
+}
+#foto_grafico{
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    background-image: url(/img/graph.jpg);
 }
 
 .text_img_footer{
-    color: black;
-    position: absolute;
+    color: white;
+    text-align: le;
 }
