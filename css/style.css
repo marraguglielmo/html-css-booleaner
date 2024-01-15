@@ -1,7 +1,6 @@
-*{
+/* *{
     margin: 0;
-    padding: 0;
-}
+} */
 
 body{
     font-family: 'montserrat', san sans-serif;
@@ -14,10 +13,72 @@ header{
     background-size:contain;
     background-color: #729EF7;
     height: 120px;
+    margin: -8px;
 }
 
 /* IMMAGINE THE BOOLEANER */
 header img{
     width: 200px;
     margin-top: 60px;
+    margin-left: 7px;
+}
+
+/* TITOLO */
+#titolo p{
+    width: 75%;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* SOTTOTITOLO */
+#sottotitolo{
+    color: grey;
+}
+
+/* FOTO TIM BERNERS */
+#container_img{
+    width: 100%;
+}
+.img_tim{
+    height: 550px;
+    /* margin-left: 70px; */
+}
+
+/* TABELLA */
+table{
+    text-align: left;
+}
+
+td{
+    height: 50px;
+}
+
+thead{
+    background-color: #77baf5;
+    color: white;
+}
+
+.bg_blue{
+    background-color: #C0E3F0;
+}
+
+.th_tabella{
+    width: 250px;
+}
+
+
+/* FOOTER */
+footer p{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: grey;
+}
+
+.img_footer{
+    position: relative;
+}
+
+.text_img_footer{
+    color: black;
+    position: absolute;
 }
