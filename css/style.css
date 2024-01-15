@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'montserrat', san sans-serif;
+}
+
+/* HEADER */
+header{
+    background-image: url(/img/pattern.png) ;
+    background-position: center;
+    background-size:contain;
+    background-color: #729EF7;
+    height: 120px;
+}
+
+/* IMMAGINE THE BOOLEANER */
+header img{
+    width: 200px;
+    margin-top: 60px;
+}
